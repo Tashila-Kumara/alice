@@ -1,0 +1,19 @@
+---
+description: ESLint standards for TypeScript and TSX
+globs: **/*.{ts,tsx}
+alwaysApply: false
+---
+
+When writing or editing `*.ts` or `*.tsx`, follow `eslint.config.ts` and fix all lint/format issues before finishing.
+
+### TypeScript
+- Do not use `any` (`@typescript-eslint/no-explicit-any`).
+- Do not add `eslint-disable` for lint rules without a brief justification.
+
+### React (TSX)
+- Destructure props in the function parameter list.
+- Follow Rules of Hooks (`eslint-plugin-react-hooks`).
+- Respect `react-refresh/only-export-components` where applicable.
+
+### Before you finish
+- Run ESLint on touched files and resolve errors (and warnings you introduced).

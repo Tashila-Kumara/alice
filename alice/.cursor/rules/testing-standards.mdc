@@ -1,0 +1,11 @@
+---
+description: Testing standards for TypeScript and TSX in apps/web-app
+globs: **/*.{ts,tsx}
+alwaysApply: false
+---
+
+When creating testing for apps and packages it should contain in a directory
+called `tests`. This `tests` directory should stay at the same level as `src` 
+directory. Directory `tests` should contain `setup.ts` file and any other
+config files inside it. And test cases need a folder and a 
+matching convention for that.
