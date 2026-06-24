@@ -6,7 +6,9 @@
     "moduleResolution": "NodeNext",
     "types": ["node", "express"],
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "rootDir": "src"
   },
   "include": ["src/**/*"]
 }

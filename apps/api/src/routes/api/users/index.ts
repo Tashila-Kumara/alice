@@ -3,12 +3,8 @@ import { requireApiAuth } from '../../../middlewares/auth';
 
 const usersRouter: Router = Router();
 
-usersRouter.get(
-  '/api/secure',
-  requireApiAuth,
-  (_req: Request, res: Response) => {
-    res.json({ message: 'Welcome to your private dashboard!' });
-  }
-);
+usersRouter.get('/secure', requireApiAuth, (_req: Request, res: Response) => {
+  res.json({ message: 'Welcome to your private dashboard!' });
+});
 
 export default usersRouter;
