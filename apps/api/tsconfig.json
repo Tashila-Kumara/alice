@@ -1,5 +1,7 @@
 {
+  "extends": "@repo/typescript-config/nextjs.json",
   "compilerOptions": {
+    "types": ["node"],
     "target": "es2022",
     "module": "nodenext",
     "moduleResolution": "nodenext",
