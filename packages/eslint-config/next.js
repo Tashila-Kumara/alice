@@ -6,6 +6,8 @@ import globals from "globals";
 import pluginNext from "@next/eslint-plugin-next";
 import { config as baseConfig } from "./base.js";
 
+console.log("\x1b[36m%s\x1b[0m", "info. requested next.js eslint file on linting...");
+
 /**
  * A custom ESLint configuration for libraries that use Next.js.
  *
