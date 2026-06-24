@@ -9,6 +9,8 @@
     "check-types": "turbo run check-types",
     "web": "pnpm --filter web",
     "api": "pnpm --filter api",
+    "ui": "pnpm --filter ./packages/ui",
+    "ui:add": "pnpm dlx shadcn@latest add -c ./packages/ui",
     "commit": "cz",
     "prepare": "husky"
   },
