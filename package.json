@@ -27,15 +27,14 @@
   },
   "config": {
     "commitizen": {
-      "path": "@commitlint/cz-commitlint"
+      "path": "./node_modules/cz-customizable"
     }
   },
   "devDependencies": {
     "@commitlint/cli": "^21.0.2",
     "@commitlint/config-conventional": "^21.0.2",
-    "@commitlint/cz-commitlint": "^21.0.1",
     "commitizen": "^4.3.2",
-    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.5.4",
     "husky": "^9.1.7",
     "lint-staged": "^17.0.8",
     "prettier": "^3.7.4",
