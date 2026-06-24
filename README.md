@@ -36,6 +36,18 @@ pnpm dev
 pnpm ui:add <component_1> <component_2>
 ```
 
+### Source Code Formatting
+
+```bash
+pnpm format
+```
+
+### Types checking
+
+```bash
+pnpm check-types
+```
+
 ### Building the app
 
 ```bash
